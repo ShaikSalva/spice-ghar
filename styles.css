@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8ef;
+}
+
+h1 {
+  color: #8b4513;
+  text-align: center;
+}
+
+.header {
+  background-color: #f5deb3;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.cart,
+.checkout {
+  padding: 20px;
+}
